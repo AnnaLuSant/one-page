@@ -2,7 +2,7 @@
 
 
 # J R C Santos - Advogados
-Site do Doutor José Roberto para a divulgação de seu trabalho
+Site do Doutor José Roberto para a divulgação de seu trabalho e processos.
 
 ## Autor:
 Anna Luiza
