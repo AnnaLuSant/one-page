@@ -1,0 +1,58 @@
+/**
+    Folha de estilo do Doutor José Roberto
+    @author Anna Luiza Santos
+    @link https://annaluiza.com.br
+*/
+
+/* Layout *****************/
+
+/* Variáveis*/
+
+:root {
+    --azulEscuro: #101926;
+    --azulPoucoEscuro: #172332;
+    --branco: #ffffff;
+    --cinza: #4a4a4a;
+    --preto: #000000;
+
+
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans, sans-serif";
+}
+
+/* Fim do Layout *****************/
+
+/** Smatphone portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/** Fim do Smatphone portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/** Smatphone landspace */
+@media(min-width: 576px) {}
+
+/** Fim Smatphone landspace */
+/** Tablet portrait*/
+@media(min-width: 768px) {}
+
+/** Fim Tablet portrait*/
+/** Tablet landscape */
+@media(min-width: 992px) {}
+
+/** Fim Tablet landscape */
+/** Notebook / PC - HD */
+@media(min-width: 1200px) {}
+
+/** Fim Notebook / PC - HD */
+/** Notebook / PC / Tv - Full HD ou 4k */
+@media(min-width: 1400px) {}
+
+/** Fim Notebook / PC / Tv - Full HD ou 4k */
