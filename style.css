@@ -33,6 +33,65 @@ body {
 
 /** Smatphone portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
+/* cebeçario*/
+
+
+header {
+    height: 80px;
+    background-color: #101926
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+
+}
+
+#check {
+    display: none;
+    /*sempre que quiser remover alguma coisa */
+}
+
+label {
+    font-size: 3rem;
+    color: rgba(245, 245, 220, 1);
+    position: fixed;
+    top: 5px;
+    right: 15px;
+}
+
+nav ul {
+    list-style: none;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    background-color: rgba(0, 2, 126, 0.75);
+    width: 65%;
+    /*tamanho da tela que vai pegar o menu*/
+    right: -65%;
+    /*Ajustar com width*/
+    transition: all 0.5s;
+}
+
+/* Ação para uma caixa check*/
+/*Quando selecionado mudar ul */
+#check:checked~ul {
+    right: 0px;
+    /*background-color:  var(--marron); /*Mudar o ul total*/
+}
+
+nav ul li {
+    padding: 15px;
+    border-bottom: 1px solid var( --azulEscuro);
+    text-align: right;
+}
+
+nav ul li a {
+    /*Remover o sublinhado do texto*/
+    text-decoration: none;
+    color: var(--branco);
+
+}
 
 /** Fim do Smatphone portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
