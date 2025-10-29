@@ -28,6 +28,22 @@
 body {
     font-family: "Open Sans, sans-serif";
 }
+/*  */
+.container {
+    display: flex;
+    margin: 0 auto;
+}
+ /* Botão */
+ .btn {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: var(--cinza);
+    padding: 10px 40px;
+    color: var(--branco);
+    border-radius: 25px;
+    border: 2px solid var(--branco);
+ }
 
 /* Fim do Layout *****************/
 
@@ -65,7 +81,7 @@ nav ul {
     height: 100vh;
     position: fixed;
     top: 60px;
-    background-color: rgba(0, 2, 126, 0.75);
+    background-color: rgba(16, 25, 38, 0.829);
     width: 65%;
     /*tamanho da tela que vai pegar o menu*/
     right: -65%;
@@ -82,7 +98,7 @@ nav ul {
 
 nav ul li {
     padding: 15px;
-    border-bottom: 1px solid var( --azulEscuro);
+    border-bottom: 1px solid var(--azulEscuro);
     text-align: right;
 }
 
@@ -92,26 +108,151 @@ nav ul li a {
     color: var(--branco);
 
 }
+/* Pincipal */
+main{
+    height: 70vh;
+    background: url(img/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+main .container{
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+main h1{
+    color:var(--branco);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.85rem;
+    text-shadow: 0px 5px 10px var(--preto),0px 10px 10px rgba(0, 0, 0, 0.15),0px 15px 15px rgba(0, 0, 0, 0.1),0px 20px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+main h2{
+    color: var(--branco);
+    font-size: 1.25rem;
+    font-weight: 900;
+    text-shadow: 0px 5px 10px var(--preto),0px 10px 10px rgba(0, 0, 0, 0.15),0px 15px 15px rgba(0, 0, 0, 0.1),0px 20px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
 
 /** Fim do Smatphone portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 /** Smatphone landspace */
-@media(min-width: 576px) {}
+@media(min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
+    /*Cabeçalho*/
+    nav ul {
+        width: 35%;
+        right: -35%;
+        transition: all 0.5s;
+    }
+    main {
+        height: 75vh;
+
+    }
+    main h1{
+        font-size: 2.75rem;
+    }
+    main h2{
+        font-size: 2rem;
+    }
+}
 
 /** Fim Smatphone landspace */
 /** Tablet portrait*/
-@media(min-width: 768px) {}
+@media(min-width: 768px) {
+
+    /* layout */
+    .container {
+        max-width: 720px;
+    }
+    /* principal */
+    main h1{
+        font-size: 3.5rem;
+    }
+    main h2{
+        font-size: 2.5rem;
+    }
+}
 
 /** Fim Tablet portrait*/
 /** Tablet landscape */
-@media(min-width: 992px) {}
+@media(min-width: 992px) {
+
+    /* layout */
+    .container {
+        max-width: 960px;
+    }
+    /*  */
+}
 
 /** Fim Tablet landscape */
 /** Notebook / PC - HD */
-@media(min-width: 1200px) {}
+@media(min-width: 1200px) {
+
+    /*Layout*/
+    .container {
+        justify-content: space-between;
+        max-width: 1140px;
+    }
+
+    /*Cabeçalho*/
+    header {
+        height: 100px;
+
+    }
+
+    .logo img {
+        width: 150px;
+        height: 150px;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 25px;
+    }
+
+    nav ul li {
+        float: left;
+        border: 0;
+    }
+
+    nav ul li a:hover {
+        color: var(--preto);
+
+    }
+    /* Principal */
+    main{
+        height: 85vh;
+    }
+}
 
 /** Fim Notebook / PC - HD */
 /** Notebook / PC / Tv - Full HD ou 4k */
-@media(min-width: 1400px) {}
+@media(min-width: 1400px) {
+    .container{
+        max-width: 1320px;
+    }
+    /* principal */
+    main h1{
+        font-size: 4rem;
+        margin-bottom: 40px;
+    }
+    main h2{
+        font-size: 30px;
+    }
+}
 
 /** Fim Notebook / PC / Tv - Full HD ou 4k */
