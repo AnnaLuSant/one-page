@@ -29,13 +29,15 @@
 body {
     font-family: "Open Sans, sans-serif";
 }
+
 /*  */
 .container {
     display: flex;
     margin: 0 auto;
 }
- /* Botão */
- .btn {
+
+/* Botão */
+.btn {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
@@ -44,7 +46,7 @@ body {
     color: var(--branco);
     border-radius: 25px;
     border: 2px solid var(--branco);
- }
+}
 
 /* Fim do Layout *****************/
 
@@ -109,73 +111,122 @@ nav ul li a {
     color: var(--branco);
 
 }
+
 /* Pincipal */
-main{
+main {
     height: 80vh;
     background: url(img/banner.png);
     background-size: cover;
     background-position: center;
 }
-main .container{
+
+main .container {
     height: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-main h1{
-    color:var(--branco);
+
+main h1 {
+    color: var(--branco);
     font-family: "Roboto", sans-serif;
     font-size: 1.85rem;
-    text-shadow: 0px 5px 10px var(--preto),0px 10px 10px rgba(0, 0, 0, 0.15),0px 15px 15px rgba(0, 0, 0, 0.1),0px 20px 20px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
 }
-main h2{
+
+main h2 {
     color: var(--branco);
     font-size: 1.25rem;
     font-weight: 900;
-    text-shadow: 0px 5px 10px var(--preto),0px 10px 10px rgba(0, 0, 0, 0.15),0px 15px 15px rgba(0, 0, 0, 0.1),0px 20px 20px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
 }
+
 /* Destaque */
 #destaque {
     padding: 50px 10px;
-    background: url(./img/balanca_es.png);
+    background:
+        linear-gradient(rgba(61, 34, 16, 0.699), rgba(5, 23, 49, 0.918)),
+        /* camada escura */
+        url(img/balanca.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
-#destaque .container{
+
+#destaque .container {
     flex-direction: column;
 }
-#hero{
+
+#hero {
     text-align: center;
 }
-#hero img{
+
+#hero img {
     width: 300px;
     height: 300px;
     margin-bottom: 25px;
 }
-.hero-text h2{
+
+.hero-text h2 {
     font-size: 1.6rem;
     color: var(--branco);
     margin-bottom: 15px;
 }
-.hero-text p{
+
+.hero-text p {
     color: var(--branco);
     font-family: "Roboto", sans-serif;
 }
+
 .topic {
     display: flex;
     align-items: center;
     margin-top: 15px;
     color: var(--branco);
 }
-.topic p{
+
+.topic p {
     margin-left: 15px;
 
 }
 
+/* Sobre */
+#Sobre {
+    padding: 50px 10px;
+    background: linear-gradient(to right, #101926, #040b16);
+}
+
+#Sobre .container {
+    flex-direction: column;
+}
+
+.sobre-text h2 {
+    font-size: 1.4rem;
+    color: var(--branco);
+    margin-bottom: 15px;
+}
+
+.sobre-text p {
+    font-size: 1rem;
+    color: var(--branco);
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 30px;
+}
+
+.sobre-video {
+    width: 320px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+#sobre-video iframe {
+    width: 355px;
+    height: 196px;
+    border-radius: 10px;
+}
 
 
 /** Fim do Smatphone portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -192,44 +243,61 @@ main h2{
         right: -35%;
         transition: all 0.5s;
     }
+
     /* Principal */
     main {
         height: 90vh;
 
     }
-    main h1{
+
+    main h1 {
         font-size: 2.75rem;
         margin-bottom: 20px;
-        text-shadow: 0px 5px 10px var(--preto),0px 10px 10px rgba(0, 0, 0, 0.15),0px 15px 15px rgba(0, 0, 0, 0.1),0px 20px 20px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
+        text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
     }
-    main h2{
+
+    main h2 {
         font-size: 2.40rem;
-        text-shadow: 0px 5px 10px var(--preto),0px 10px 10px rgba(0, 0, 0, 0.15),0px 15px 15px rgba(0, 0, 0, 0.1),0px 20px 20px rgba(0, 0, 0, 0.1);
-    margin-bottom: 40px;
+        text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(0, 0, 0, 0.15), 0px 15px 15px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+        margin-bottom: 40px;
     }
+
     /* Destaque */
-    #destaque{
+    #destaque {
         padding: 50px 0px;
-        background-attachment: fixed; 
+        background-attachment: fixed;
     }
-    #destaque .container{
+
+    #destaque .container {
         flex-direction: row;
         align-items: center;
-        
+
     }
-    #hero{
+
+    #hero {
         text-align: left;
     }
-    #hero img{
+
+    #hero img {
         width: 250px;
         height: 250px;
         margin: 0px 25px 0px 0px;
     }
-    .topic{
+
+    .topic {
         display: none;
     }
+
+    /* Sobre */
+    #sobre-video iframe {
+        width: 500px;
+        height: 366px;
+        border-radius: 10px;
+    }
 }
+
+
 
 /** Fim Smatphone landspace */
 /** Tablet portrait*/
@@ -239,17 +307,20 @@ main h2{
     .container {
         max-width: 720px;
     }
+
     /* principal */
-    main h1{
+    main h1 {
         font-size: 3.5rem;
         margin-bottom: 30px;
     }
-    main h2{
+
+    main h2 {
         font-size: 2.90rem;
     }
+
     /* Destaque */
-    #destaque{
-        background-attachment: fixed; 
+    #destaque {
+        background-attachment: fixed;
     }
 }
 
@@ -261,9 +332,10 @@ main h2{
     .container {
         max-width: 960px;
     }
+
     /* Destaque */
-    #destaque{
-        background-attachment: fixed; 
+    #destaque {
+        background-attachment: fixed;
     }
 }
 
@@ -309,44 +381,80 @@ main h2{
         color: var(--preto);
 
     }
+
     /* Principal */
-    main{
+    main {
         height: 85vh;
     }
 
     /* Destaque */
 
-    #destaque{
+    #destaque {
         /* paralax */
-        background-attachment: fixed; 
+        background-attachment: fixed;
 
     }
-    #hero img{
+
+    #hero img {
         width: 400px;
         height: 400px;
     }
-    .hero-text h2{
+
+    .hero-text h2 {
         font-size: 2rem;
     }
-    .topic{
+
+    .topic {
         display: none;
     }
+
+    /* Sobre */
+    #video-sobre iframe {
+        margin: 0px 5px 0px 50px;
+
+    }
+
+    #Sobre .container {
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .sobre-text h2 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+
+    }
+
+    .sobre-text p {
+        font-size: 1rem;
+        color: var(--branco);
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 30px;
+    }
+
+
+
 }
 
 /** Fim Notebook / PC - HD */
 /** Notebook / PC / Tv - Full HD ou 4k */
 @media(min-width: 1400px) {
-    .container{
+    .container {
         max-width: 1320px;
     }
+
     /* principal */
-    main h1{
+    main h1 {
         font-size: 4rem;
         margin-bottom: 40px;
     }
-    main h2{
+
+    main h2 {
         font-size: 30px;
     }
+
+
 }
 
 /** Fim Notebook / PC / Tv - Full HD ou 4k */
