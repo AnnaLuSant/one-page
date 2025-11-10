@@ -46,13 +46,25 @@ body {
     color: var(--branco);
     border-radius: 25px;
     border: 2px solid var(--branco);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.836);
+}
+
+/* Card */
+.card {
+    width: 341px;
+    height: 520px;
+    background-color: var(--cinza);
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 1px solid var(--branco);
+
 }
 
 /* Fim do Layout *****************/
 
 /** Smatphone portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-/* cebeçario*/
+/* cabeçario*/
 
 
 header {
@@ -271,6 +283,40 @@ main h2 {
 
 .qrcode {
     display: none;
+}
+
+/* Cards */
+#regularizacao {
+    background-color: var(--azulPoucoEscuro);
+    padding: 50px 0px;
+}
+
+#regularizacao .container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.card img {
+    margin-top: 1px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card h2 {
+    color: var(--branco);
+    font-size: 1.5;
+    margin-bottom: 10px;
+}
+.card p{
+    color: var(--branco);
+    font-size: 2;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 0px 10px 25px 10px;
+}
+#regularizacao .btn{
+    background-color: var(--azulPoucoEscuro);
 }
 
 
