@@ -308,16 +308,34 @@ main h2 {
     font-size: 1.5;
     margin-bottom: 10px;
 }
-.card p{
+
+.card p {
     color: var(--branco);
     font-size: 2;
     margin-bottom: 10px;
     text-align: left;
     padding: 0px 10px 25px 10px;
 }
-#regularizacao .btn{
+
+#regularizacao .btn {
     background-color: var(--azulPoucoEscuro);
 }
+
+/* rodapé */
+#rodape .container{
+    background-color: var(--azulEscuro);
+    flex-direction: column;
+}
+#googlemaps iframe{
+    display: none;
+}
+#contato img {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+
+
 
 
 /** Fim do Smatphone portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
