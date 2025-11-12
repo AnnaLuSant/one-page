@@ -20,7 +20,7 @@
 
 <body>
     <!--Cabeçalho-->
-    <header>
+    <header id="Cabecalho">
         <div class="container">
 
             <!--logo-->
@@ -32,10 +32,10 @@
                 <input type="checkbox" id="check">
                 <label for="check">&#x268c;</label>
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Regularização</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#Início">Início</a></li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#regularizacao">Regularização</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
 
@@ -43,7 +43,7 @@
 
     </header>
     <!-- Principal -->
-    <main>
+    <main id="Início">
         <div class="container">
             <h1>JRC SANTOS
                 ADVOGADOS</h1>
@@ -127,7 +127,7 @@
                 <p>A escritura pública formaliza juridicamente a compra e venda de um imóvel, garantindo validade legal
                     ao negócio. Já o registro em cartório transfere oficialmente a propriedade, assegurando ao comprador
                     todos os direitos sobre o bem.</p>
-                <a href="http://" target="_blank" rel="noopener noreferrer" class="btn">Saiba+</a>
+                <a href="https://www.instagram.com/jrcsantosadv.regularizacao/" target="_blank" rel="noopener noreferrer" class="btn">Saiba+</a>
 
             </div>
             <div class="card">
@@ -136,7 +136,7 @@
                 <p>Garantia de segurança jurídica em todas as etapas da negociação imobiliária, com análise detalhada e
                     elaboração de contratos claros, equilibrados e personalizados para proteger os interesses das partes
                     envolvidas.</p>
-                <a href="http://" target="_blank" rel="noopener noreferrer" class="btn">Saiba+</a>
+                <a href="https://www.instagram.com/jrcsantosadv.regularizacao/" target="_blank" rel="noopener noreferrer" class="btn">Saiba+</a>
 
             </div>
             <div class="card">
@@ -144,7 +144,7 @@
                 <h2>Rescisão Contratual</h2>
                 <p> Atuação voltada à análise e encerramento de contratos imobiliários, garantindo que os direitos e
                     deveres das partes sejam respeitados e que o processo ocorra de forma segura e dentro da lei.</p>
-                <a href="http://" target="_blank" rel="noopener noreferrer" class="btn">Saiba+</a>
+                <a href="https://www.instagram.com/jrcsantosadv.regularizacao/" target="_blank" rel="noopener noreferrer" class="btn">Saiba+</a>
 
             </div>
         </div>
@@ -152,43 +152,63 @@
     </section>
 
 
-    <!-- Rodapé -->
-    <addres id="rodape">
+    <!-- Endereço -->
+    <address id="contato">
         <div class="container">
-            <div id="contato">
+            <div id="contact">
                 <a
                     href="https://api.whatsapp.com/send?phone=5511948445758&text=%22Ol%C3%A1%2C%20quero%20saber%20mais%20de%20meus%20direitos.%22">
                     <img src="/img/watsss.png" alt="whatsapp" title="Abrir no Whatsapp">
                     <p>(11) 01234-5678</p>
+
+                <img src="./img/email.png" alt="email">
+                <p>jrcsantos.2adv@gmail.com</p>
+
                 </a>
             </div>
             <div id="endereço">
-                <a href="https://maps.app.goo.gl/vSmKBv2oQVsRBDEy9"><img src="/img/maps.png" alt="mapa" id="iconMapa"
-                        </a>
-                    <img src="/img/mapa.png" alt="">
-                    <p>Rua Santa Edith, 208</p>
-                    <p>JD Helena</p>
-                    <p>São Paulo - SP</p>
+                <a href="https://maps.app.goo.gl/vSmKBv2oQVsRBDEy9"><img src="/img/maps.png" alt="mapa"
+                        id="iconMapa"></a>
+                <img src="/img/mapa.png" alt="MapaIcon" id="mapaicon">
+                <p>Rua Santa Edith, 208</p>
+                <p>JD Helena</p>
+                <p>São Paulo - SP</p>
 
             </div>
+
             <div id="googlemaps">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.0630003176398!2d-46.454683424015315!3d-23.530236378821137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66ae253c2301%3A0x462a24139b5f1496!2sOAB%20Itaquera%20-%20104a%20Subse%C3%A7%C3%A3o%20OABSP!5e0!3m2!1spt-BR!2sbr!4v1762799487551!5m2!1spt-BR!2sbr"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div id="email">
-                <img src="./img/email.png" alt="Email">
-                <p>meuemail@email.com</p>
-            </div>
+
 
         </div>
     </address>
-    <footer>
-        <div class="container">
+    <!-- Roda pé -->
+    <footer id="footer">
+        <div class="container Flex5">
+            <div id="copyright">
+                <p> &#169; Anna Luiza Ferreira Costa Santos</p>
+            </div>
+            <div id="social">
+                <a href="https://www.instagram.com/jrcsantosadv.regularizacao/" target="_blank"><img src="/img/insta.png"
+                        alt="instagram"></a>
+                <a href="https://www.facebook.com/jrcsantos.regularizacaoimobiliaria" target="_blank"><img
+                        src="/img/face.png" alt="facebook"></a>
+                <a href="" target="_blank"><img src="/img/watsss.png" alt="Whatsapp"></a>
+            </div>
 
         </div>
     </footer>
+
+    <!-- Topo do Site -->
+     <div id="topo">
+        <a href="#Cabecalho">
+            <img src="./img/seta.png" alt="iconseta">
+        </a>
+     </div>
 
 </body>
 
